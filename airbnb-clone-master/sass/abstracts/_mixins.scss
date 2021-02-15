@@ -1,0 +1,29 @@
+@mixin search-bar {
+    display: flex;
+    background-color: white;
+    border-radius: 40rem;
+    width: 85rem;
+}
+
+@mixin link-btn {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 1rem 1.4rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+@mixin broadway-image {
+    object-fit: cover;
+    vertical-align: bottom;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+@mixin media-main-padding-sides($top-bottom) {
+    @media (max-width:1150px) {
+        padding: $top-bottom 4rem;
+    }
+    
+}
